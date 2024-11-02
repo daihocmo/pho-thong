@@ -1,0 +1,89 @@
+site_name: Tui học phổ thông
+site_description: Tổng hợp nội dung, lộ trình học và tài nguyên tự học cho học sinh từ lớp 6 đến lớp 12
+site_author: duykhanh471
+
+nav:
+  - 'Trang chủ': 
+    - 'Trang chủ': index.md
+  - 'Hướng dẫn':
+    - 'Hướng dẫn tự học': huong-dan.md
+  - 'Lớp 6':
+    - 'Toán': 'lop-6/toan.md'
+    - 'Ngữ văn': 'lop-6/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-6/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-6/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-6/khoa-hoc-xa-hoi.md'
+  - 'Lớp 7':
+    - 'Toán': 'lop-7/toan.md'
+    - 'Ngữ văn': 'lop-7/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-7/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-7/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-7/khoa-hoc-xa-hoi.md'
+  - 'Lớp 8':
+    - 'Toán': 'lop-8/toan.md'
+    - 'Ngữ văn': 'lop-8/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-8/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-8/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-8/khoa-hoc-xa-hoi.md'
+  - 'Lớp 9':
+    - 'Toán': 'lop-9/toan.md'
+    - 'Ngữ văn': 'lop-9/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-9/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-9/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-9/khoa-hoc-xa-hoi.md'
+  - 'Lớp 10':
+    - 'Toán': 'lop-10/toan.md'
+    - 'Ngữ văn': 'lop-10/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-10/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-10/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-10/khoa-hoc-xa-hoi.md'
+  - 'Lớp 11':
+    - 'Toán': 'lop-11/toan.md'
+    - 'Ngữ văn': 'lop-11/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-11/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-11/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-11/khoa-hoc-xa-hoi.md'
+  - 'Lớp 12':
+    - 'Toán': 'lop-12/toan.md'
+    - 'Ngữ văn': 'lop-12/ngu-van.md'
+    - 'Ngoại ngữ': 'lop-12/tieng-anh.md'
+    - 'Khoa học tự nhiên': 'lop-12/khoa-hoc-tu-nhien.md'
+    - 'Khoa học xã hội': 'lop-12/khoa-hoc-xa-hoi.md'
+  - 'Những phần khác':
+    - 'Tài nguyên tự học': 'tai-nguyen-tu-hoc.md'
+
+
+theme:
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - search.highlighting
+    - search.share
+    - search.suggest
+  name: material
+
+plugins:
+  - search
+
+extra:
+  generator: false
